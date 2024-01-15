@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className='container-footer'>
+    <section className='container-footer'>
 
       <div className='footer'>
               <div className='sb_footer-section_padding'>
@@ -80,7 +80,7 @@ function Footer() {
                 
               </div>
            </div>
-          </div>
+          </section>
   
       
   

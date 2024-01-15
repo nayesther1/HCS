@@ -11,6 +11,7 @@
   .sb_footer-section_padding{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .add-new-propert{
@@ -18,22 +19,21 @@
   justify-content: space-between;
 }
 .add-new-propert button{
-  border-radius: 0.6rem;
+  border-radius: 0.8rem;
   width: 3rem;
   height: 1.5rem;
-  margin-bottom: 2rem;
 }
 
 
 .sb_footer-links{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
   text-align: left;
-  margin-bottom: 2rem;
+  padding: 40px;
 }
 
 .sb_footer-links_div{
@@ -62,8 +62,8 @@ margin-bottom: 0.9rem;
 .sb_footer-bellow-links{
   display: inline;
   flex-direction: column;
-  justify-content: space-between;
   margin-top: 10px;
+  gap: 2rem;
 }
 
 .sb_footer-copyright{
