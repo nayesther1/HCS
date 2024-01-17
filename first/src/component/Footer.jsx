@@ -4,6 +4,7 @@ import { IoIosCall } from "react-icons/io";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { FaPlusCircle } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -31,7 +32,7 @@ function Footer() {
                       <p>Contact us</p>
                   </a>
                   <a href="/new property">
-                      <p className='add-new-propert'>Add New Property <button>new </button></p>
+                      <p className='add-new-propert'>Add New Property <FaPlusCircle size={18} color='orange'/></p>
                   </a>
                 
               </div>
@@ -77,7 +78,6 @@ function Footer() {
                  <a href="twitter"> <FaTwitter /></a>
                  <a href="instagram"><FaInstagramSquare /></a>
                  <a href="linkedin"><FaLinkedin /></a>
-                
               </div>
            </div>
           </section>
